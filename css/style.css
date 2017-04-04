@@ -86,3 +86,11 @@ ul span {
 header {
 	text-align: center;
 }
+@media only screen and (max-width: 768px) {
+	#perfil {
+		width: 100%;
+	}
+	#contenido {
+		width: 100%;
+	}
+}
