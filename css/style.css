@@ -89,6 +89,7 @@ header {
 @media only screen and (max-width: 768px) {
 	#perfil {
 		width: 100%;
+		position: none;
 	}
 	#contenido {
 		width: 100%;
