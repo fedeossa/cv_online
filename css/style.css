@@ -86,10 +86,11 @@ ul span {
 header {
 	text-align: center;
 }
+/* For mobile phones: */
 @media only screen and (max-width: 768px) {
 	#perfil {
 		width: 100%;
-		position: none;
+		position: relative;
 	}
 	#contenido {
 		width: 100%;
