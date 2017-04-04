@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" href="./css/font/stylesheet.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="./css/unslider.css">
-	<script type="text/javascript" src="./js/jquery.min.js" ></script> <script type="text/javascript" src="./js/unslider.js"></script>
-	  <script>
-    jQuery(document).ready(function($) {
-      $('.slider').unslider({
-        arrows: false,
-        autoplay: true
-      });
-    });
-  </script>
 	<title>Ing. Agr. Federico Ossa</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="./css/unslider.css">	
 </head>
 <body>
-	<div id=perfil>
+	<div id="perfil">
 		<img src="foto.jpg" width="90%" alt="Foto de perfil">
-		<ul><li> <a href="#datos">Presentación</a></li>
-		<li> <a href="#formacion">Formación</a></li>
-		<li> <a href="#exp">Experiencia</a></li>
-		<li> <a href="#portfolio">Portfolio</a></li>
+		<ul>
+			<li> <a href="#datos">Presentación</a></li>
+			<li> <a href="#formacion">Formación</a></li>
+			<li> <a href="#exp">Experiencia</a></li>
+			<li> <a href="#portfolio">Portfolio</a></li>
 		</ul>
 		<img src="link.gif" width="90%" alt="Link and the triforce"> <!--https://www.tenor.co/view/link-zelda-triforce-gif-4908576 -->
 	</div>
@@ -44,41 +36,53 @@
 		<h2>II – Formación Académica</h2>
 			
 			<h3>Ingeniero Agrónomo</h3>
-				<p>Agronomists are involved with many issues, including producing food, creating healthier food, managing the environmental impact of agriculture,  extracting energy from plants and making alcoholic beverage like wine! </p>
-						
+				<p>Agronomists are involved with many issues, including producing food, creating healthier food, managing the environmental impact of agriculture,  extracting energy from plants and making alcoholic beverage like wine! </p>	
+
 			<h3>Conocimientos de progrmación web</h3>
-				
+
 				<p>JavaScript, CSS3 y HTML5.</p>
-				<p>Cursando la carrera de Desarrollador Web en <a href="https://www.acamica.com/">Acamica</a></p>
+				<p>Cursando la carrera de Desarrollador Web en <a href="https://www.acamica.com/" target="_blank">Acamica</a></p>
 
 			<h3>Estudios de Idiomas</h3> 
-				<ul><li>Inglés</li> 
-					<span>First Certificate in English, I lived in California 6 months.</span>
-				<li>Italiano</li>
-					<span>Corso di Italiani B1, Sociedad Dante Alighieri</span>
+				<ul>
+					<li>Inglés</li> 
+						<span>First Certificate in English, I lived in California 6 months.</span>
+					<li>Italiano</li>
+						<span>Corso di Italiani B1, Sociedad Dante Alighieri</span>
 				</ul>
 		</div>
 		<div id="exp" class="cuerpo">
 		<h2>III – Experiencia Laboral</h2>
-
-			<ul><li>Kendall Jackson Oakville, California. 2016</li>
-			<li>FeCoVitA. Coop Ltda. 2015 y 2016.</li>
-			<li>Grupo Peñaflor S.A. 2013 y 2014.</li>
-			<li>Zuccardi 2011</li>
+			<ul>
+				<li>Kendall Jackson Oakville, California. 2016</li>
+				<li>FeCoVitA. Coop Ltda. 2015 y 2016.</li>
+				<li>Grupo Peñaflor S.A. 2013 y 2014.</li>
+				<li>Zuccardi 2011</li>
 			</ul>			
 		</div>
 		
 		<div id="portfolio" class="cuerpo">
 		<h2>IV - Portfolio</h2>		
 			<div class="slider">
-				<ul><li><a href="http://www.imd.uncu.edu.ar/upload/cultivos-energeticos-final.pdf">Cultivos energéticos</a></li>
-				<li><a href="http://imd.uncuyo.edu.ar/upload/el-cartamo.pdf">Cultivo de Carthamus tinctorius L.</a></li>
-				<li>Proyecto 3</li>
-				<li>Proyecto 4</li>
-				<li>Proyecto 5</li></ul>
+				<ul>
+					<li><a href="http://www.imd.uncu.edu.ar/upload/cultivos-energeticos-final.pdf" target="_blank">Cultivos energéticos</a></li>
+					<li><a href="http://imd.uncuyo.edu.ar/upload/el-cartamo.pdf" target="_blank">Cultivo de Carthamus tinctorius L.</a></li>
+					<li>Proyecto 3</li>
+					<li>Proyecto 4</li>
+					<li>Proyecto 5</li>
+				</ul>
 			</div>
 		</div>
 	</div>
-
+	<script type="text/javascript" src="./js/jquery.min.js" ></script> 
+	<script type="text/javascript" src="./js/unslider.js"></script>
+	<script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: false,
+        autoplay: true
+      });
+    });
+  	</script>
 </body>
 </html>
