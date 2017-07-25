@@ -101,12 +101,9 @@ header {
 	height: auto;
 	align-items: center;
 	text-align: center;
-	box-shadow: 0.1px 0.2rem 0.2rem #E5AA9D;
 	transition: all 0.5s;
 	padding: 1.5%;
-	margin-top: 1%;
-	border-color: #fff;
-	border-top: 1%;
+	margin-top: 1%;	
 }
 #skill div:hover {
 	box-shadow: 0.5px 0.75rem 0.75rem #DCCCAC;
