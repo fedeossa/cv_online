@@ -1,7 +1,7 @@
 body {
 	background-color: #FBEEDE;
 	margin-top: 5px;
-	font-family: "veteran_typewriterregular", arial, sans-serif;
+	font-family: "Roboto", arial, sans-serif;
 }
 #perfil {
 	background-color: #FBEEDE;
@@ -92,6 +92,33 @@ ul span {
 }
 header {
 	text-align: center;
+}
+
+#skill div {
+	border-radius: 10%;
+	float: left;
+	width: 13%;
+	height: auto;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0.1px 0.2rem 0.2rem #E5AA9D;
+	transition: all 0.5s;
+	padding: 1.5%;
+	margin-top: 1%;
+	border-color: #fff;
+	border-top: 1%;
+}
+#skill div:hover {
+	box-shadow: 0.5px 0.75rem 0.75rem #DCCCAC;
+}
+#skill div img {
+	width: 70%;
+	height: 70%;
+}
+#formacion h3{
+	float: none;
+	clear: both;
+	padding-top: 2%;
 }
 /* For mobile phones: */
 @media only screen and (max-device-width: 768px) {
