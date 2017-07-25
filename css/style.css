@@ -7,7 +7,7 @@ body {
 	background-color: #FBEEDE;
 	width: 20%;
 	overflow: auto;
-	margin: auto;	
+	margin: auto;
 	float: left;
 	margin-top: 5px;
 	position: fixed;
@@ -17,7 +17,7 @@ body {
 	overflow: auto;
 	width: 78%;
 	margin-left: 1%;
-	border-color: #fff; 
+	border-color: #fff;
 	border-left-width: medium;
 	float:right;
 	margin-top: 5px;
@@ -33,17 +33,19 @@ body {
 	border-top: 1%;
 }
 .cuerpo:hover {
-	box-shadow: 0.5px 0.75rem 0.75rem #E5AA9D;		
+	box-shadow: 0.5px 0.75rem 0.75rem #DCCCAC;
 }
 h1 {
 	margin-top: 0px;
 }
-#datos li{
+#contenido li{
 	border-bottom-color: #E5AA9D;
 	border-bottom-width: thin;
-	border-bottom-style: dotted;	
+	border-bottom-style: dotted;
 }
-
+#portfolio li {
+	border-bottom-style: none;
+}
 img {
 	align-items: center;
 	padding-left: 2%;
@@ -51,7 +53,12 @@ img {
 	height: 90%;
 }
 #perfil img:first-child {
-	filter: grayscale(100%);
+	filter: grayscale(70%);
+	border-radius: 50%;
+}
+#perfil img:last-child {
+	filter: grayscale(50%);
+	border-radius: 0%;
 }
 li {
 	padding: 1%;
