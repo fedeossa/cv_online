@@ -30,6 +30,7 @@ body {
 	margin-top: 1%;
 	border-color: #fff;
 	border-top: 1%;
+	border-radius: 1%;
 }
 .cuerpo:hover {
 	box-shadow: 0.5px 0.75rem 0.75rem #DCCCAC;
