@@ -108,6 +108,7 @@
 	</div>
 	<script type="text/javascript" src="./js/jquery.min.js" ></script>
 	<script type="text/javascript" src="./js/unslider.js"></script>
+	<script type="text/javascript" src="./js/smooth-scroll.polyfills.min.js"></script>
 	<script>
     jQuery(document).ready(function($) {
       $('.slider').unslider({
@@ -115,6 +116,7 @@
         autoplay: true
       });
     });
+		var scroll = new SmoothScroll('a[href*="#"]');
   	</script>
 </body>
 </html>
