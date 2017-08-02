@@ -32,9 +32,11 @@ body {
 	border-top: 1%;
 	border-radius: 1%;
 }
+/* Vamos a quitar el efecto de sombra del cuerpo al hacer hover.
 .cuerpo:hover {
 	box-shadow: 0.5px 0.25rem 0.25rem #05668d;
 }
+*/
 h1 {
 	margin-top: 0px;
 }
