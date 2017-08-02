@@ -73,10 +73,10 @@
   border-radius: 5px;
   overflow: hidden;
   text-indent: -999em;
-  border: 2px solid #fff;
+  border: 2px solid #dbdbdb;
   cursor: pointer;
 }
 .unslider-nav ol li.unslider-active {
-  background: #fff;
+  background: #dbdbdb;
   cursor: default;
 }

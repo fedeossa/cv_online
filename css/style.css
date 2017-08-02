@@ -1,16 +1,15 @@
 body {
-	background-color: #ebf2fa;
+	background-color: #fff;
 	margin-top: 5px;
 	font-family: "Roboto", arial, sans-serif;
 	color: #05668d;
 }
 #perfil {
-	background-color: #ebf2fa;
+	background-color: #e5e6e6;
 	width: 20%;
 	overflow: auto;
 	margin: auto;
 	float: left;
-	margin-top: 5px;
 	position: fixed;
 }
 #contenido {
@@ -62,6 +61,8 @@ img {
 	border-radius: 50%;
 }
 #perfil img:last-child {
+	margin: auto;
+	display: block;
 	filter: grayscale(50%);
 	border-radius: 0%;
 }
