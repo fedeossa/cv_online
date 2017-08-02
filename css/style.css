@@ -1,10 +1,11 @@
 body {
-	background-color: #86aac3;
+	background-color: #ebf2fa;
 	margin-top: 5px;
 	font-family: "Roboto", arial, sans-serif;
+	color: #05668d;
 }
 #perfil {
-	background-color: #86aac3;
+	background-color: #ebf2fa;
 	width: 20%;
 	overflow: auto;
 	margin: auto;
@@ -17,7 +18,7 @@ body {
 	overflow: auto;
 	width: 78%;
 	margin-left: 1%;
-	border-color: #fff;
+	border-color: #dbdbdb;
 	border-left-width: medium;
 	float:right;
 	margin-top: 5px;
@@ -28,7 +29,7 @@ body {
 	transition: all 0.5s;
 	padding: 0.5%;
 	margin-top: 1%;
-	border-color: #fff;
+	border-color: #dbdbdb;
 	border-top: 1%;
 	border-radius: 1%;
 }
@@ -41,7 +42,7 @@ h1 {
 	margin-top: 0px;
 }
 #datos li{
-	border-bottom-color: #ebf2fa;
+	border-bottom-color: #b0b5b3;
 	border-bottom-width: thin;
 	border-bottom-style: dotted;
 }
@@ -69,6 +70,7 @@ li {
 	list-style-type: none;
 }
 a:link {
+	color: #86aac3;
 	text-decoration: none;
 }
 a:hover {
@@ -76,7 +78,8 @@ a:hover {
 	text-decoration-color: #05668d;
 }
 a:visited {
-	background-color: cyan;
+	color: #05668d;
+	background-color: #86aac3;
 }
 #perfil ul{
 	padding-left: 1%;
@@ -114,7 +117,7 @@ header {
 	margin-top: 1%;
 }
 .skill div:hover {
-	box-shadow: 0.5px 0.75rem 0.75rem #05668d;
+	box-shadow: 0.5px 0.75rem 0.75rem #b0b5b3;
 }
 .skill div img {
 	width: 70%;
